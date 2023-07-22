@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AppStock</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc_product">Pringles keripik kentang terbuat dari bahan berkualitas dengan taburan bumbu di atas keripik yang bertekstur tipis sehingga terasa renyah dan gurih. Cocok di nikmati saat santai dan berbagai momen bersama orang spesial dan keluarga. </string>
+</resources>

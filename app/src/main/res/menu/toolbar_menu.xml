@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Simpan"
+        android:id="@+id/toolbar_simpan"
+        android:icon="@drawable/baseline_save_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Search"
+        android:id="@+id/toolbar_search"
+        android:icon="@drawable/baseline_search_24"
+        android:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:title="New Product"
+        android:id="@+id/toolbar_product"/>
+    <item
+        android:title="New Suplier"
+        android:id="@+id/toolbar_suplier"/>
+    <item
+        android:title="Analytics"
+        android:id="@+id/toolbar_analytics"/>
+    <item
+        android:title="Settings"
+        android:id="@+id/toolbar_settings"/>
+
+
+</menu>

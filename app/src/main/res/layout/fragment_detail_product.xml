@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailProductFragment">
+
+        <Button
+            android:layout_width="30dp"
+            android:scrollbars="none"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/btn_back_detail"
+            android:background="@drawable/baseline_keyboard_backspace_24" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detail Product"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:id="@+id/detailProduct"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/red" />
+
+            <ImageView
+                android:background="@drawable/red_border"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:id="@+id/detailImageProduct"
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/uploadimg"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:text="Nama Product : "
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/red"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dp"
+                android:padding="20dp"
+                android:text="promil"
+                android:layout_gravity="center"
+                android:id="@+id/detailNamaProduct"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.5"
+                android:background="@color/red"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Harga Beli / Harga Jual :"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/red"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Rp. "
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="harga product"
+                    android:id="@+id/detailHargaProduct"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="  /  Rp. "
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="harga product "
+                    android:id="@+id/detailHargaJual"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="1dp"
+                android:alpha="0.5"
+                android:background="@color/red"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Stock Product : "
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/red"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text=" 112"
+                    android:id="@+id/detailStockProduct"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="1dp"
+                android:alpha="0.5"
+                android:background="@color/red"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Description Product : "
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/red"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dp"
+                android:padding="20dp"
+                android:text="penjelasan dari product tersebut "
+                android:layout_gravity="center"
+                android:id="@+id/detailDescProduct"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="1dp"
+                android:alpha="0.5"
+                android:background="@color/red"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
